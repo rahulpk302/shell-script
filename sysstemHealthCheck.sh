@@ -11,5 +11,5 @@ echo "###################################"
 echo -e "\nDisk Usage:"; df -h
 echo "###################################"
 
-eho -e "\nTop 5 Memory Processes:"; ps aux --sort=-%mem | head -n 5
+echo -e "\nTop 5 Memory Processes:"; ps aux --sort=-%mem | head -n 5
 echo "###################################"
